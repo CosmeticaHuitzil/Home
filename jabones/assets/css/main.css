@@ -1624,7 +1624,8 @@
 	}
 
 	body {
-		background: #ffffff;
+		/*GHA Fondo*/
+		background: #87E1C6;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1641,6 +1642,7 @@
 /* Type */
 
 	body, input, select, textarea {
+		/*GHA Texto Body*/
 		color: #585858;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
@@ -2696,6 +2698,7 @@
 				padding: 1em;
 				border-radius: 4px;
 				border-bottom: 0;
+				/*GHA Letra de los Cuadros*/
 				color: #ffffff;
 				text-align: center;
 				text-decoration: none;
@@ -2729,7 +2732,7 @@
 					.tiles article > a .content > :last-child {
 						margin-bottom: 0;
 					}
-
+					/*GHA Cuadros*/
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
 			}
@@ -2916,6 +2919,7 @@
 						height: 3em;
 						line-height: 3em;
 						padding: 0 1.5em;
+						/*GHA Boton Menu*/
 						background-color: rgba(255, 255, 255, 0.5);
 						border-radius: 4px;
 						border: 0;
@@ -3013,8 +3017,10 @@
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
-		color: #ffffff;
+		/*GHA  Menu*/
+		background: #01B698;
+		/*GHA Letra Menu*/
+		color: #000000;
 		cursor: default;
 		visibility: hidden;
 		z-index: 10002;
@@ -3194,7 +3200,8 @@
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		/*GHA Footer*/
+		background-color: #00A896;
 	}
 
 		#footer > .inner {

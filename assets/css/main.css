@@ -99,7 +99,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		/*GHA Body - Footer*/
+		background: #05668d;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -116,6 +117,8 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
+		
+		/*GHA Color Texto*/
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 17pt;
@@ -2799,7 +2802,9 @@ input, select, textarea {
 			}
 
 			.tiles article:after {
+				/*GHA*/
 				background-color: rgba(36, 41, 67, 0.25);
+				
 				content: '';
 				display: block;
 				height: 100%;
@@ -2829,7 +2834,7 @@ input, select, textarea {
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
 				width: 60%;
 			}
-
+			/*CuadrosColores*/
 			.tiles article:nth-child(6n - 5):before {
 				background-color: #6fc3df;
 			}
@@ -2938,7 +2943,9 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+
+			/*GHA FILA 1*/			
+			background-color: #00a896;
 		}
 
 			.spotlights > section > .image {
@@ -3000,7 +3007,8 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				/*GHA FILA 2*/
+				background-color: #019493;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3114,7 +3122,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		/*GHA Header Menu*/
+		background-color: #87E1C6;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3144,8 +3153,9 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #ffffff;
-				color: #242943;
+				/*GHA Cuadro Menu*/
+				background-color: #FFFFFF;
+				color: #87E1C6;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3263,7 +3273,8 @@ input, select, textarea {
 			}
 
 			#header.alt.style2 .logo strong {
-				color: #8d82c4;
+				/*GHA - Letra Cuadro Blanco*/
+				color: #87E1C6;
 			}
 
 			#header.alt.style3 .logo strong {
@@ -3410,7 +3421,8 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			/*GHA Fondo encabezado HOME*/
+			background-color: #3ECFA3;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3495,7 +3507,8 @@ input, select, textarea {
 		}
 
 		#banner.style2:after {
-			background-color: #8d82c4;
+			/*GHA 2do Encabezados Claro*/
+			background-color: #7BDEC0;
 		}
 
 		#banner.style3:after {
@@ -3589,7 +3602,8 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		/*GHA Sub sub encabezado*/
+		background-color: #01B698;
 	}
 
 		#main > * {
@@ -3798,7 +3812,11 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		
+		/*GHA Menu
+		background: #05668d;*/
+		background: rgba(5, 102, 141, 0.5);
+
 		box-shadow: none;
 		height: 100%;
 		left: 0;
